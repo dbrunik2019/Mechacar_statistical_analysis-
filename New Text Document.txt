@@ -1,0 +1,46 @@
+# MechaCar_Statistical_Analysis
+MechaCar_Statistical_Analysis
+### overview 
+Jeremy is looking into a new Auto project. There are production issues and we are looking to get insight from the data to help expedite these issues.We used the basics of statistics and hypothesis testing to test certain qualities of the mechaCar. My background with the CFA exams prepared me nicely for this content, and it was good to revist the concepts of linear regression, P values, and Hypothesis testing. 
+
+## Deliverables
+Deliverable 1 Linear Regression to Predict MPG
+Deliverable 2 Summary Statistics on Suspension Coils
+Deliverable 3 T-Test on Suspension Coils
+Deliverable 4 Design a Study Comparing the MechaCar to the Competition
+
+### Data sources and software
+Data Source MechaCar_mpg.csv and Suspension_Coil.csv
+Data Tools tidyverse, dplyr, ggplot2 and MechaCarChallenge.RScript.
+Software RStudio and R
+
+### del 1
+![call for  regression summary stats](httpsuser-images.githubusercontent.com100965117176064067-7ecbb54a-c4c3-4b12-a249-3421c2c6aeab.PNG)
+1. Vehicle lenght and clerance are non random variace contributors. Size and clerance impact miles per gallon on mecha car. Weight, spoiler angle and AWD have P values that indicate random varaince, meaning that they are not significant variables. 
+2. P values is smaller than the .05 so we REJECT THE NULL. the P is smallest level at which you can reject the null. so if we were to go over the P, then we would ACCEPT THE NULL. here though, we reject. 
+3. R squared is a level of quality. this is the predicitve power of the model, the higher the R^2 the higher the explanatory power of the model. SO here, we can say that the R squared is high enough to have some explanatory power for this mechacar model.
+### del 2
+Summary statisics provided below. 
+#### lot summary 
+![lot_summary mean medain variance sd](httpsuser-images.githubusercontent.com100965117176064580-910a874c-61e5-496a-bdc1-632261c30a7b.PNG)
+#### total _ summary 
+![total_summary mean median variance sd](httpsuser-images.githubusercontent.com100965117176064602-97eb7882-3670-4b57-9ecd-92c6e6792371.PNG)
+
+
+Box plot 
+![Capture](httpsuser-images.githubusercontent.com100965117176064653-e8fe4ca6-261b-40d9-98d8-50569b5a7bbb.PNG)
+#### del 3
+T tests
+![T test results](httpsuser-images.githubusercontent.com100965117176064816-d248a4a8-2eb0-4d85-9aba-7200b237f795.PNG)
+
+#### Del 4 (create a test for variable quality) 
+you could use a multiple regression to test every single value to determine if they are all valid. 
+Safety Feature Rating Independent Variable
+Current Price (Selling) Dependent Variable
+Drive Package  Independent Variable
+Engine (Electric, Hybrid, Gasoline  Conventional) Independent Variable
+Resale Value Independent Variable
+Average Annual Cost of ownership (Maintenance) Independent Variable
+MPG (Gasoline Efficiency) Independent Variable
+
+Mecha cars Analaysis -David John Brunik
