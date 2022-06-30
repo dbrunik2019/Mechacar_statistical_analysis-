@@ -15,24 +15,28 @@ Data Tools tidyverse, dplyr, ggplot2 and MechaCarChallenge.RScript.
 Software RStudio and R
 
 ### del 1
-![call for  regression summary stats](httpsuser-images.githubusercontent.com100965117176064067-7ecbb54a-c4c3-4b12-a249-3421c2c6aeab.PNG)
+![call for  regression summary stats](https://user-images.githubusercontent.com/100965117/176709396-c66deee9-90eb-4cf1-b8fb-fa389293dc9e.PNG)
+
 1. Vehicle lenght and clerance are non random variace contributors. Size and clerance impact miles per gallon on mecha car. Weight, spoiler angle and AWD have P values that indicate random varaince, meaning that they are not significant variables. 
 2. P values is smaller than the .05 so we REJECT THE NULL. the P is smallest level at which you can reject the null. so if we were to go over the P, then we would ACCEPT THE NULL. here though, we reject. 
 3. R squared is a level of quality. this is the predicitve power of the model, the higher the R^2 the higher the explanatory power of the model. SO here, we can say that the R squared is high enough to have some explanatory power for this mechacar model.
 ### del 2
 Summary statisics provided below. 
 #### lot summary 
-![call for  regression summary stats](https://user-images.githubusercontent.com/100965117/176709212-8a7d9264-1fb1-4e71-a6f6-d5463e8f2e12.PNG)
+![lot_summary mean medain variance sd](https://user-images.githubusercontent.com/100965117/176709455-984e2dc0-c156-4149-a681-6728cb6f45c1.PNG)
 
 #### total _ summary 
-![total_summary mean median variance sd](httpsuser-images.githubusercontent.com100965117176064602-97eb7882-3670-4b57-9ecd-92c6e6792371.PNG)
+![total_summary mean median variance sd](https://user-images.githubusercontent.com/100965117/176709511-0c9d6d75-54b4-44b5-b892-b4f09ddea71a.PNG)
+
 
 
 Box plot 
-![Capture](httpsuser-images.githubusercontent.com100965117176064653-e8fe4ca6-261b-40d9-98d8-50569b5a7bbb.PNG)
+![Capture](https://user-images.githubusercontent.com/100965117/176709592-31fa47e2-048f-4820-b41e-31dec3fcfb66.PNG)
+
 #### del 3
 T tests
-![T test results](httpsuser-images.githubusercontent.com100965117176064816-d248a4a8-2eb0-4d85-9aba-7200b237f795.PNG)
+![T test results](https://user-images.githubusercontent.com/100965117/176709643-ca8b4720-f4a4-4030-9747-8c89de60e298.PNG)
+
 
 #### Del 4 (create a test for variable quality) 
 you could use a multiple regression to test every single value to determine if they are all valid. 
