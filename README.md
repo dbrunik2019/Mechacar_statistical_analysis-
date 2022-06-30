@@ -22,7 +22,8 @@ Software RStudio and R
 ### del 2
 Summary statisics provided below. 
 #### lot summary 
-![lot_summary mean medain variance sd](httpsuser-images.githubusercontent.com100965117176064580-910a874c-61e5-496a-bdc1-632261c30a7b.PNG)
+![call for  regression summary stats](https://user-images.githubusercontent.com/100965117/176709212-8a7d9264-1fb1-4e71-a6f6-d5463e8f2e12.PNG)
+
 #### total _ summary 
 ![total_summary mean median variance sd](httpsuser-images.githubusercontent.com100965117176064602-97eb7882-3670-4b57-9ecd-92c6e6792371.PNG)
 
